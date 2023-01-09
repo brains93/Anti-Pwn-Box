@@ -30,14 +30,28 @@ the standard install found [Here](https://www.proxmox.com/en/proxmox-ve/get-star
 #
 
 
-# VM setup 
+## VM setup 
 
 Install as many or as little VMS on the 'server' as you like my setup I have one web server and one Snort IDS setup. to get the ISOs into proxmox 
 
 
+![image](https://user-images.githubusercontent.com/60553334/211364950-ecf786ad-eb07-4bfa-be70-400814f63ade.png)
+
+![image](https://user-images.githubusercontent.com/60553334/211365097-6cee5574-2416-4eb6-bfb7-d85b64563941.png)
+
+![image](https://user-images.githubusercontent.com/60553334/211365259-f5e40b50-8a12-42f4-9d57-468dab35b5e8.png)
 
 
 
+
+#
+
+## Snort setup 
+
+
+
+The linux bridge that is being mirrored needs to have bridge aging set to 0 in order for it to replicate port mirror traffic to the Snort VM
+edit the /etc/network/interfaces file so it looks like vmbr1 
 ```
 auto vmbr0
 iface vmbr0 inet static
