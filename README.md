@@ -1,5 +1,8 @@
 # Hacking_demokit
-Demonstation kit to show off real world attacks 
+Demonstation kit to show off what attacks look like in the real world.
+Showing how defence in depth can protect even the most vulnrable systems.
+
+The end goal of this kit is to have a CTF style system with very vulnrable systems, protected with standard security tools and practices.
 
 
 #
