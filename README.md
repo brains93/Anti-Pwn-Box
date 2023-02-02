@@ -5,7 +5,8 @@ Showing how defence in depth can protect even the most vulnrable systems.
 The end goal of this kit is to have a CTF style system with very vulnrable systems, protected with standard security tools and practices.
 
 
-#
+#![Fn6g5g4XkAcvgcA](https://user-images.githubusercontent.com/60553334/216354675-4ebf7396-db57-480d-99fe-59a0bb8385a7.jpg)
+
 
 ## Hardware
 
