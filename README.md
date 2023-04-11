@@ -30,9 +30,20 @@ The end goal of this kit is to have a CTF style system with very vulnrable syste
 - 3d printed case for Powersupply
 - enclosure/ server rack
 
+## PSU details
 <details>
- <summary> custom PSU images </summary>
+  
+ <summary> Custom PSU images </summary>
  I wanted to keep the PSU as small as I could so I chose a 60w LED driver with a 12-5v converter for the Raspberry Pi power
+  
+ ![Fna3FzPXEAsUmwv](https://user-images.githubusercontent.com/60553334/231086566-325bad55-7979-4ab3-a6a2-38fb31569357.jpeg)
+  
+![Fn0OdomX0AABRFi](https://user-images.githubusercontent.com/60553334/231086572-4a23a8d1-0c31-4d54-a2a8-7091575a3cc8.jpeg)
+  
+![Fn0OcyzWIBsYavL](https://user-images.githubusercontent.com/60553334/231086575-4f0a42dc-9c1b-4a92-827a-b138469d6c55.jpeg)
+  
+![Fn0Y0iVWIBMIUEa](https://user-images.githubusercontent.com/60553334/231086581-1190ca2a-335d-48fa-a928-63f9a72c59ac.jpeg)
+
 </details>
 
 #
