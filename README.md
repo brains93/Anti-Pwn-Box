@@ -11,9 +11,9 @@ The end goal of this kit is to have a CTF style system with very vulnrable syste
   
 </details>
 
+![FtMGuIwWIAEhq4B](https://user-images.githubusercontent.com/60553334/231083442-56c5b7c9-a6a0-4197-9d1b-23550c63f5dc.jpeg)
 
 
-#![Fn6g5g4XkAcvgcA](https://user-images.githubusercontent.com/60553334/216354675-4ebf7396-db57-480d-99fe-59a0bb8385a7.jpg)
 
 
 ## Hardware
