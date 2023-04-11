@@ -4,6 +4,9 @@ Showing how defence in depth can protect even the most vulnrable systems.
 
 The end goal of this kit is to have a CTF style system with very vulnrable systems, protected with standard security tools and practices.
 
+## Demo Video
+https://www.tiktok.com/@brains933/video/7196664584487406854?is_from_webapp=1&sender_device=pc&web_id=7220699447427532293
+
 <details>
   <summary>Network Diagram</summary>
   
