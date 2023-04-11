@@ -15,6 +15,7 @@ Warning! Alerts are delayed until snort's stdout buffer is flushed.
 host = '192.168.3.110' # Change this to the IP address of the Raspberry Pi
 port = 12345
 buf = 1024
+tines = '' #enter your tines webhook here
 
 
 def snort():
@@ -39,7 +40,7 @@ def snort():
 def send_tines(data):
     print(data)
     response = requests.post(
-        'https://falling-fire-8917.tines.com/webhook/44ac8fb1631bf422f1ebabdd92d27dba/58d96c6bebf66b9a6a80d4374369661e',
+        tines,
         data=data,
         )
     addr = (host, port)
