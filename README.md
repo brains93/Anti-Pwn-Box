@@ -2,7 +2,9 @@
 Demonstation kit to show off what attacks look like in the real world.
 Showing how defence in depth can protect even the most vulnrable systems.
 
-The end goal of this kit is to have a CTF style system with very vulnrable systems, protected with standard security tools and practices.
+The end goal of this kit is to have a CTF style system with very vulnrable systems, protected with standard security tools and practices that will alert/flag when attackes are detected and disable the person access for a set cool down period before they can try again.
+
+If I can get sponsers for this I will hopefully have swag for people who hack it.
 
 ## Demo Video
 https://www.tiktok.com/@brains933/video/7196664584487406854?is_from_webapp=1&sender_device=pc&web_id=7220699447427532293
@@ -34,10 +36,10 @@ https://www.tiktok.com/@brains933/video/7196664584487406854?is_from_webapp=1&sen
 - enclosure/ server rack
 
 ## PSU details
+ I wanted to keep the PSU as small as I could so I chose a 60w LED driver with a 12-5v converter for the Raspberry Pi power
 <details>
   
  <summary> Custom PSU images </summary>
- I wanted to keep the PSU as small as I could so I chose a 60w LED driver with a 12-5v converter for the Raspberry Pi power
   
  ![Fna3FzPXEAsUmwv](https://user-images.githubusercontent.com/60553334/231086566-325bad55-7979-4ab3-a6a2-38fb31569357.jpeg)
   
