@@ -11,7 +11,7 @@ The end goal of this kit is to have a CTF style system with very vulnrable syste
   
 </details>
 
-![FtMGuIwWIAEhq4B](https://user-images.githubusercontent.com/60553334/231083442-56c5b7c9-a6a0-4197-9d1b-23550c63f5dc.jpeg)
+![APB](https://user-images.githubusercontent.com/60553334/231083442-56c5b7c9-a6a0-4197-9d1b-23550c63f5dc.jpeg)
 
 
 
@@ -21,14 +21,19 @@ The end goal of this kit is to have a CTF style system with very vulnrable syste
 - Watchguard XTM 3 series Firewall (any firewall will work)
 - D-link DGS-1100-05v2 Managed switch (any managed switch with port security and Port mirroring)
 - Raspberry pi (client machine/end user)
+- Raspberry Pi (generic misc server, currently running LED code)
 - Zima board (servers)
   - 2.5inch Hard drive 
   - 2 x usb drives (one will always be plugged into the Zima so low form factor is good)
 - 60w LED driver powersupply
 - 12-5v converter
-- enclosure
+- 3d printed case for Powersupply
+- enclosure/ server rack
 
-
+<details>
+ <summary> custom PSU images </summary>
+ I wanted to keep the PSU as small as I could so I chose a 60w LED driver with a 12-5v converter for the Raspberry Pi power
+</details>
 
 #
 
@@ -82,4 +87,20 @@ iface vmbr1 inet static
         bridge_ageing 0
 
 ```
+
+
+## Current work 
+
+I have now got 3 more zima boards, one of the lowest spec and 2 of the middle spec (lower RAM is the main change)
+the lowest spec is now running PFsense and will replace the watchguard, I am not super happy about this as I want the firewall to look like a firewall but any old kit I can get my hands on for cheap/free is to old to be a good referance of whaat modern firewalls can do. 
+
+The other two Zimas will be added to the Proxmox nodes for additional virtualisation. 
+
+I will need to modify the PSU with aditional 12v output to account for the extra Zimaboard
+
+Once the hardware is in I will then work on getting OWASP juice shop installed and put behind a WAF (I am not experianced with WAFs so I am not sure if this could protect Juice shop but we are going to find out)
+
+I also need to get Elastic configured now I have the Hardware to support it (still not 100% sure this should be in the V1 of this will decided later)
+
+I also need to tie in some form of blocking for the Snort detections. I may just move snort to the PFsense firewall for blocking and leave the detection snort in place to feed into Elastic 
 
